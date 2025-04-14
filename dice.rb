@@ -38,7 +38,8 @@ get("/dice/2/6") do
   "<h1>2d6</h1>
    <p>#{outcome}</p>
    <ul>
-     <li><a href=\>Retry</a></li>
+     <li><a href=>Retry</a></li>
+     <li><a href=\"/\">Return to home</a></li>
    </ul>
    "
 end
@@ -53,7 +54,8 @@ get("/dice/2/10") do
   "<h1>2d10</h1>
    <p>#{outcome}</p>
    <ul>
-     <li><a href=\>Retry</a></li>
+     <li><a href=>Retry</a></li>
+     <li><a href=\"/\">Return to home</a></li>
    </ul>"
 end
 
@@ -65,7 +67,8 @@ get("/dice/1/20") do
   "<h1>1d20</h1>
    <p>#{outcome}</p>
    <ul>
-     <li><a href=\>Retry</a></li>
+     <li><a href=>Retry</a></li>
+     <li><a href=\"/\">Return to home</a></li>
    </ul>"
 end
 
@@ -82,6 +85,7 @@ get("/dice/5/4") do
   "<h1>5d4</h1>
    <p>#{outcome}</p>
    <ul>
-     <li><a href=\>Retry</a></li>
+     <li><a href=>Retry</a></li>
+     <li><a href=\"/\">Return to home</a></li>
    </ul>"
 end
